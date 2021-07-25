@@ -1,12 +1,12 @@
 <?xml version="1.0.0"?>
 <package format="2">
-  <name>clbrobot</name>
+  <name>hello_robot</name>
   <version>1.0.0</version>
   <description>Two wheel differential drive ROS platform</description>
-  <maintainer email="364711106@qq.com">t</maintainer>
+  <maintainer email="pi@TODO.com">t</maintainer>
   <license>BSD</license>
 
-   <author email="364711106@qq.com">kevin</author>
+  <author email="pi@TODO.com">kevin</author>
 
   <buildtool_depend>catkin</buildtool_depend>
     <build_depend>roscpp</build_depend>

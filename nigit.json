@@ -1,0 +1,10 @@
+{
+   "projects": [
+      {
+         "url": "git@github.com:ros-teleop/teleop_twist_keyboard.git"
+      },
+      {
+         "url": "git@github.com:ykevin/riki_msgs.git"
+      }
+   ]
+} 
