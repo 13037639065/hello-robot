@@ -7,9 +7,17 @@
 
 #### arduino_serial_node
 读取驱动板上的数据并发布，控制电机
+```
+/battery # 显示电池电压(V)
+/cmd_vel # 订阅Twist消息
+/diagnostics # 显示错误信息
+/pid # 不知道
+/raw_imu # 发布原始imu数据
+/raw_vel # 发布原始轮速
+```
 
 #### imu_calib
-GY-85（九轴）：发布imu原始数据
+GY-85（九轴）：
 
 #### imu_filter_madgwick
 imu滤波节点

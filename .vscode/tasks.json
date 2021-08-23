@@ -1,0 +1,27 @@
+{
+    "tasks": [
+        {
+            "type": "catkin_make",
+            "args": [
+                "--directory",
+                "${workspaceFolder}/../..",
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "-DFORCE_DEBUG_BUILD=True",
+                "-DCMAKE_C_COMPILER=/usr/bin/clang",
+                "-DCMAKE_CXX_COMPILER=/usr/bin/clang++",
+                "wheel_control_node",
+                "wheel_control_test",
+                "--cmake-args",
+                "-Wno-dev"
+            ],
+            "problemMatcher": [
+                "$catkin-gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "label": "catkin_make: build",
+        }
+    ]
+}

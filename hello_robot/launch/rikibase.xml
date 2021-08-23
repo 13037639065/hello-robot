@@ -1,0 +1,7 @@
+<launch>
+    <!--serial communication between arduino and pc via usb /-->
+    <node name="arduino_serial_node" pkg="rosserial_python" type="serial_node.py" output="screen">
+        <param name="port" value="/dev/rikibase" />
+        <param name="baud" value="115200" />
+    </node>
+</launch>
